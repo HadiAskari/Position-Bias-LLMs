@@ -68,12 +68,12 @@ Replace batch-size with device#
 You will need to download and copy the Llama folder from meta with the weights to the directory first.
 Inference can be done by running the file inference_13b_chat.py with the following command.
 
-'''
+```
 torchrun --nproc_per_node 2 inference_13b_chat.py \
     --ckpt_dir llama-2-13b-chat/ \
     --tokenizer_path tokenizer.model \
     --max_seq_len 2000 --max_batch_size 4
-'''
+```
 
 Main code is in script.py
 Command to run script:
