@@ -2,6 +2,11 @@
 
 ## Pegasus
 
+Main code is in script.py
+Command to run script:
+
+
+```python script.py --dataset dataset_name --batch_size 4 --device 2 --model None
 
 ## Bart
 
